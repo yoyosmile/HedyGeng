@@ -52,19 +52,14 @@
 }
 
 .notion-header .breadcrumb.active {
-  text-transform: lowercase;
+  text-transform: none;
 }
 .notion-header .searchIcon {
-  text-transform: lowercase;
+  text-transform: none;
 }
 
 .notion-property {
-  text-transform: lowercase;
-}
-
-.notion-property.notion-property-date::before {
-  content: 'Updated on';
-  margin-right: 5px;
+  text-transform: none;
 }
 
 .notion-collection-card-property {
@@ -132,7 +127,7 @@
   font-size: 1.5em;
   font-weight: 600;
   white-space: unset;
-  text-transform: lowercase;
+  text-transform: none;
 }
 
 .notion-collection-header-title {
