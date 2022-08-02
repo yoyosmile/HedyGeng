@@ -42,6 +42,18 @@ export const Footer: React.FC<{
 
       <div className={styles.social}>
    
+        {config.behance && (
+          <a
+            className={styles.behance}
+            href={`https://behance.net/${config.behance}`}
+            title={`behance @${config.behance}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <Fabehance />
+          </a>
+        )}
+
 
         {config.github && (
           <a
